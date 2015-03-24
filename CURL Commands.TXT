@@ -1,0 +1,22 @@
+curl http://localhost:8080/RestTest/webresources/MyPath/find/all
+curl http://localhost:8080/RestTest/webresources/MyPath/find/mongo
+curl http://localhost:8080/RestTest/webresources/MyPath/find/neo
+curl http://localhost:8080/RestTest/webresources/MyPath/find/couch
+curl http://localhost:8080/RestTest/webresources/MyPath/find/mysql
+
+curl http://localhost:8080/RestTest/webresources/MyPath/findspecific/mysql/param
+
+curl http://localhost:8080/RestTest/webresources/MyPath/delete/all
+curl http://localhost:8080/RestTest/webresources/MyPath/delete/mongo
+curl http://localhost:8080/RestTest/webresources/MyPath/delete/couch
+curl http://localhost:8080/RestTest/webresources/MyPath/delete/neo
+curl http://localhost:8080/RestTest/webresources/MyPath/delete/mysql
+
+
+curl -i -H "Accept: application/json" -X POST http://localhost:8080/RestTest/webresources/MyPath/save/all
+curl -i -H "Accept: application/json" -X POST http://localhost:8080/RestTest/webresources/MyPath/save/neo
+curl -i -H "Accept: application/json" -X POST http://localhost:8080/RestTest/webresources/MyPath/save/mongo
+curl -i -H "Accept: application/json" -X POST http://localhost:8080/RestTest/webresources/MyPath/save/couch
+curl -i -H "Accept: application/json" -X POST http://localhost:8080/RestTest/webresources/MyPath/save/mysql
+
+
