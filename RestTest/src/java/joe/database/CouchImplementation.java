@@ -15,7 +15,7 @@ import org.lightcouch.Response;
 
 /**
  *
- * @author Joe O Flaherty
+ * @author Joe O Flaherty T00155775
  */
 public class CouchImplementation implements IRepository {
 
